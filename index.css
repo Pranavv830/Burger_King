@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .mdiv{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+ }
+ .header{
+    height: 100px;
+    width: 100%;
+    margin-top: -640px;
+    background-color: bisque;
+    position: absolute;
+ }
+.loc{
+    width: 30%;
+    height: 35px;
+    background-color: antiquewhite;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -25px;
+    border-radius: 70px;
+}
+.loc a{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: medium;
+}
+:link{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.name{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: -80px;
+    color: rgb(255, 102, 0);
+}
+.middle{
+     height: 280px;
+     width: 100%;
+     background-color: blanchedalmond;
+     position: absolute;
+     margin-top: -130px;
+    
+}
+.middle ul{
+    display: flex;
+    
+}
+.middle ul li{
+    padding-left: 20px;
+    margin-top: 20px;
+    
+}
+.middle :hover{
+        color: rgb(170, 23, 148);
+}
+
+.middle ul li a{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+
+.Menu{
+    height: 40px;
+    width: 98%;
+    background-color: darkorange;
+    position: absolute;
+    margin-top: 250px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 7px;
+    
+}
+.Menu a {
+    text-decoration: none;
+    font-family: arial white;
+    font-weight: bolder;
+    color: white;
+    margin-top: 5px;
+    padding: 20px ;
+    font-size: 25px;
+
+}
+.end{
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    position: absolute;
+    margin-top: 950px;
+
+}
+.end a img {
+     margin-left: 1%;
+}
